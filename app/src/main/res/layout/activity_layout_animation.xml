@@ -45,10 +45,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/Orange"
+            android:background="@color/Beige"
+            android:animateLayoutChanges="true"
+            android:layoutAnimation="@anim/popinlayout"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/layout_animation_text_view_1"
                 style="@style/TextViewStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -57,13 +60,13 @@
                 android:text="@string/label_text_view_1"/>
 
             <TextView
+                android:id="@+id/layout_animation_text_view_2"
                 style="@style/TextViewStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/PaleGoldenrod"
-                android:text="@string/label_text_view_2"
-                />
+                android:text="@string/label_text_view_2"/>
         </LinearLayout>
 
     </LinearLayout>

@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Animation Examples</string>
     <string name="activity_layout_animation">Layout Animation</string>
-    <string name="button_label_add_weight">Add Weight to View 1</string>
-    <string name="button_label_remove_weight">Remove Weight from View 1</string>
-    <string name="label_text_view_1">View 1</string>
-    <string name="label_text_view_2">View 2</string>
+    <string name="button_label_add_weight">Give max weight to View 1</string>
+    <string name="button_label_remove_weight">Give default weight to View 1</string>
+    <string name="label_text_view_1">View 1\nVertical weight = %.1f</string>
+    <string name="label_text_view_2">View 2\nVertical weight = %.1f</string>
 </resources>

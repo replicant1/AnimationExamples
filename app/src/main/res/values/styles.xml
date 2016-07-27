@@ -10,7 +10,7 @@
 
     <style name="TextViewStyle">
         <item name="android:textAlignment">center</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/Black</item>
         <item name="android:gravity">center</item>
     </style>
