@@ -2,4 +2,4 @@
                  android:delay="0.5"
                  android:animationOrder="normal"
                  android:interpolator="@android:anim/decelerate_interpolator"
-                 android:animation="@android:anim/slide_in_left" />
+                 android:animation="@android:anim/fade_in" />

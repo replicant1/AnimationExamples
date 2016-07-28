@@ -6,10 +6,10 @@
               android:orientation="vertical"
               android:padding="@dimen/activity_outer_padding">
 
-    <!-- Holds the left column and right column -->
+    <!-- Holds the left column and right primary columns -->
 
     <LinearLayout
-        android:id="@+id/two_columns"
+        android:id="@+id/two_columns_linear_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
@@ -17,36 +17,51 @@
         <!-- Left primary coloumn -->
 
         <LinearLayout
-            android:id="@+id/button_panel"
+            android:id="@+id/left_primary_column"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:background="@color/CornflowerBlue"
             android:gravity="center_vertical"
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/add_weight_button"
+                android:id="@+id/change_layout_button"
                 style="@style/ButtonTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_label_add_weight"/>
+                android:text="@string/button_label_change_layout"/>
 
             <Button
-                android:id="@+id/remove_weight_button"
+                android:id="@+id/change_layout_horizontal_button"
                 style="@style/ButtonTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_label_remove_weight"/>
+                android:text="@string/button_label_change_layout_horizontal"/>
+
+            <Button
+                android:id="@+id/schedule_layout_button"
+                style="@style/ButtonTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_label_schedule_layout"/>
+
+            <Button
+                android:id="@+id/schedule_layout_button_horizontal"
+                style="@style/ButtonTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_label_schedule_layout_horizontal"/>
         </LinearLayout>
 
         <!-- Right primary column -->
 
         <LinearLayout
-            android:id="@+id/views_panel"
+            android:id="@+id/right_primary_column"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/Beige"
             android:animateLayoutChanges="true"
+            android:background="@color/Beige"
             android:layoutAnimation="@anim/popinlayout"
             android:orientation="vertical">
 
@@ -57,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/Coral"
-                android:text="@string/label_text_view_1"/>
+                />
 
             <TextView
                 android:id="@+id/layout_animation_text_view_2"
@@ -65,8 +80,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/PaleGoldenrod"
-                android:text="@string/label_text_view_2"/>
+                android:background="@color/Orange"
+                />
         </LinearLayout>
 
     </LinearLayout>
