@@ -7,4 +7,5 @@
     <string name="button_label_schedule_layout_horizontal">Schedule Horiz</string>
     <string name="label_text_view_1">View 1\nVertical weight = %.1f</string>
     <string name="label_text_view_2">View 2\nVertical weight = %.1f</string>
+    <string name="title_activity_in_tray">InTrayActivity</string>
 </resources>
