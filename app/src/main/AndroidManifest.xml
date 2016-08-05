@@ -17,8 +17,16 @@
         <!--</intent-filter>-->
     <!--</activity>-->
 
-    <activity android:name=".InTrayActivity"
-              android:label="Property Animation - Tray Sliding Up">
+    <!--<activity android:name=".InTrayValueAnimatorCodeActivity"-->
+              <!--android:label="Property Animation - Tray Sliding Up">-->
+        <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN"></action>-->
+            <!--<category android:name="android.intent.category.LAUNCHER"></category>-->
+        <!--</intent-filter>-->
+    <!--</activity>-->
+
+    <activity android:name=".InTrayValueAnimatorXmlActivity"
+              android:label="Tray Sliding Up (XML)">
         <intent-filter>
             <action android:name="android.intent.action.MAIN"></action>
             <category android:name="android.intent.category.LAUNCHER"></category>

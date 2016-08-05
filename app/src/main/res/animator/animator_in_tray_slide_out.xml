@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The animated value is the "height" attribute of the In Tray's LayoutParams.
+This animator slides the in tray down and off the screen from the bottom edge, until the
+top edge is at y == 0px -->
+<animator xmlns:android="http://schemas.android.com/apk/res/android"
+          android:duration="500"
+          android:valueFrom="1000"
+          android:valueTo="0"
+          android:valueType="intType"/>
+
+
