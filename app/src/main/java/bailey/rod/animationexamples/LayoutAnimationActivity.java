@@ -11,7 +11,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- *
+ * Uses the "Layout Animation" facility of Android to achieve the sliding in and sliding out animation for
+ * the in tray.
  */
 public class LayoutAnimationActivity extends AppCompatActivity {
 

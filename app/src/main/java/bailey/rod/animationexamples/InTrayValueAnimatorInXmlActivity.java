@@ -1,25 +1,25 @@
 package bailey.rod.animationexamples;
 
-import android.animation.Animator;
 import android.animation.AnimatorInflater;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
 /**
- * Illustrates one of the simplest ways to do animation. Use a ValueAnimator and then in the ANimationUpdateListener
+ * Illustrates one of the simplest ways to do animation. Employs Androids "Property Animation" facility.
+ * Use af ValueAnimator and then in the AnimationUpdateListener
  * apply the updated value to the view property yourself. The ValueAnimator is defined in XML.
+ *
+ * @see InTrayValueAnimatorInCodeActivity which achieves the same thing via essentially the same method, but the
+ * ValueAnimatoris defined in R.layout.activity_layout_animation.
  */
-public class InTrayValueAnimatorXmlActivity extends AppCompatActivity {
+public class InTrayValueAnimatorInXmlActivity extends AppCompatActivity {
 
-
-    private static final String TAG = InTrayValueAnimatorXmlActivity.class.getSimpleName();
-
+    private static final String TAG = InTrayValueAnimatorInXmlActivity.class.getSimpleName();
 
     private boolean animationDirection = false;
 
@@ -60,7 +60,6 @@ public class InTrayValueAnimatorXmlActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Log.d(TAG, "Toggle button clicked");
-            Log.d(TAG, "Hello Mr Gumby");
             Log.d(TAG, "slideInAnimator=" + slideInAnimator);
             Log.d(TAG, "slideOutAnimator=" + slideOutAnimator);
 

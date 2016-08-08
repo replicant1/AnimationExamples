@@ -11,13 +11,14 @@ import android.widget.RelativeLayout;
 
 /**
  * Illustrates one of the simplest ways to do animation. Use a ValueAnimator and then in the AnimationUpdateListener
- * apply the updated value to the view property yourself. The ValueAnimator is defined in code.
+ * apply the updated value to the view property yourself. The ValueAnimator is defined in code. Uses the "Property
+ * Animation" facility of Android.
  */
-public class InTrayValueAnimatorCodeActivity extends AppCompatActivity {
+public class InTrayValueAnimatorInCodeActivity extends AppCompatActivity {
 
     private static final int DURATION_MS = 500;
 
-    private static final String TAG = InTrayValueAnimatorCodeActivity.class.getSimpleName();
+    private static final String TAG = InTrayValueAnimatorInCodeActivity.class.getSimpleName();
 
     private static final int IN_TRAY_OPEN_HEIGHT_PX = 0;
 
